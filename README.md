@@ -13,6 +13,6 @@
 -
 
 
-## 편집 바로가기
+## 바로가기
 
 - [자료구조](https://github.com/kjsu0209/Tech-Interview/blob/main/data-structure/ds.md)
