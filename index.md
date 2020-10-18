@@ -1,6 +1,6 @@
 ## CS 기초지식
 
-1. [자료구조](https://github.com/kjsu0209/Tech-Interview/blob/main/data-structure/ds.md)
+1. [자료구조](https://kjsu0209.github.io/Tech-Interview/data-structure/ds)
 1. 알고리즘
 1. 운영체제
 1. 네트워크
