@@ -17,3 +17,8 @@
 ### 14. 균형 이진 트리의 시간 복잡도
 ### 15. 스택 두개로 큐를 만드는 방법
 ### 16. n개의 배열에서 k번째로 큰 수를 찾는 방법
+### 17. 최소 스패닝 트리(Minimum Spanning Tree)에 대해서 설명해주세요.
+### 18. selection sort란?
+### 19. Insertion Sort란?
+### 20. Merge Sort란?
+### 21. quick sort란?
