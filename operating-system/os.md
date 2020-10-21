@@ -100,3 +100,7 @@ Code - Data - BSS - Heap - Stack
 #### 14. Round Robin에 대해 설명.
 
 #### 15. PC(Program Counter) 역할
+
+#### 16. 세그멘테이션이란?
+
+#### 17. 가상 메모리란?
