@@ -19,3 +19,4 @@
 - [운영체제](https://github.com/kjsu0209/Tech-Interview/blob/main/operating-system/os.md)
 - [네트워크](https://github.com/kjsu0209/Tech-Interview/blob/main/network/network.md)
 - [자바](https://github.com/kjsu0209/Tech-Interview/blob/main/java/java.md)
+- [데이터베이스](https://github.com/kjsu0209/Tech-Interview/blob/main/database/db.md)
