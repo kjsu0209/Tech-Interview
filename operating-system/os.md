@@ -34,7 +34,7 @@ Submit - Hold - Ready - Run - Wait/Exit
 #### 9. 페이징이란
 #### 10. 페이지 교체 알고리즘의 종류 설명
 #### 11. 메모리구조에대해서 설명하시오.
-- UNIX
+- UNIX  
 Code - Data - BSS - Heap - Stack  
 => Code: 기계어로 된 코드가 저장되는 메모리.    
 => Data: 전역 변수같이 컴파일 단계에서 초기화되고, 프로그램 종료 단계에 해제되는 메모리.  
