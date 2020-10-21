@@ -4,7 +4,7 @@
 1. 알고리즘
 1. [운영체제](https://kjsu0209.github.io/Tech-Interview/operating-system/os)
 1. [네트워크](https://kjsu0209.github.io/Tech-Interview/network/network)
-1. 데이터베이스
+1. [데이터베이스](https://kjsu0209.github.io/Tech-Interview/database/db)
 
 
 ## 프로그래밍 언어
