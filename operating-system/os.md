@@ -95,3 +95,8 @@ Code - Data - BSS - Heap - Stack
 > 도메인 제한이 없는 세마포어 (0,1뿐만아니라 2,3,4 등의 값들 또한 가질수 있는) -> **counting semaphore**
 
 #### 13. 커널모드와 유저모드에 대해서 설명.
+
+
+#### 14. Round Robin에 대해 설명.
+
+#### 15. PC(Program Counter) 역할
