@@ -37,6 +37,36 @@
 #### 8. '=='와 equals의 차이
 #### 9. String str = new String()과 String str = ""의 차이
 
+> String pool에 저장이 되느냐 그냥 heap에 따로 저장되느냐의 차이.
+
+String을 생성하는 두가지 방식
+
+1. new 연산자를 이용한 방식
+2. 리터럴을 이용한 방식
+
+Java의 Heap에는 `String Pool` 이라는 특별한 영역에서 String 객체들을 관리합니다. 이 String Pool의 실체는 `HashMap`입니다. 다음 코드와 같이 문자열 리터럴을 사용하여 String 객체를 생성하면 `String Pool`에 기존에 같은 값을 가지는 String 객체가 있는지 검사하고 있으면 그 객체의 참조값을, 없으면 String Pool에 새로 String 객체를 생성하고 그 참조값을 리턴합니다.
+
+그러므로 아래와 같은 결과를 확인할 수 있습니다. new 를 통한 객체 생성시에는 string pool에 생성되지 않고 따로 생성됩니다. 
+
+~~~java
+String a = "aaa";
+String b = "aaa";
+String c = new String("aaa");
+String d = new String("aaa");
+
+System.out.println(a==b); //true
+System.out.println(a==c);//false
+System.out.println(a==d);//false
+System.out.println(c==d);//false
+System.out.println(a.equals(b));//true
+System.out.println(a.equals(c));//true
+System.out.println(c.equals(d));//true
+~~~
+
+![image](https://user-images.githubusercontent.com/36303777/96821049-28df3780-1462-11eb-9cc3-389229ad0980.png)
+
+
+
 #### 10. 자바의 접근 제어자에 대해 설명
 - private : 외부에서 접근 불가
 - package private : 패키지 외부에서 접근 불가
@@ -46,12 +76,38 @@
 #### 11. 오버라이딩과 오버로딩에 대해 설명
 #### 12. Generic이란?
 
+제네릭은 다양한 타입의 객체들을 다루는 메서드나 컬렉션 클래스에 컴파일 시의 타입 체크를 해주는 기능입니다.
+
+즉, **클래스 내부에서 사용할 데이터 타입을 나중에 인스턴스를 생성할 때 확정하는 것**을 **제네릭**이라 합니다.
+
+제네릭의 장점은 
+
+1. 컴파일 시 강한 타입 체크를 할 수 있다.
+   - 실행시 타입 에러가 나는 것보다 컴파일 시에 미리 타입을 강하게 체크해서 에러를 사전에 방지
+2. 타입 변환(casting)을 제거한다.
+   - 비제네릭 코드는 불필요하게 타입 변환을 하기 때문에 프로그램 성능에 악영향을 미친다.
+
+> #### 와일드카드란, 
+>
+> 제네릭 클래스의 객체를 메소드의 매개변수로 받을 때, 그 객체의 타입 변수를 제한하는 것을 말한다.
+>
+> #### 와일드 카드<?>의 제한 종류
+>
+> - **<? extends T>** 와일드 카드의 상한 제한(upper bound) - T와 그 자손들을 구현한 객체들만 매개변수로 가능
+> - **<? super T>** 와일드 카드의 하한 제한(lower bound) -T와 그 조상들을 구현한 객체들만 매개변수로 가능
+> - **<?>** 제한 없음
+
 #### 13. 인터페이스와 추상클래스의 차이
 - 인터페이스는 다중 확장 가능, 추상 클래스는 불가
 - 인터페이스의 필드값는 static final이지만 추상클래스는 non-static, non-final 필드 가능
 
 #### 14. 자바 멀티쓰레드에서 동기화 방법
 #### 15. 자바8 변경사항
+
+- **람다 표현식 (Lambda expression):** 함수형 프로그래밍이 가능하게 됨
+- **스트림 API (Stream API):** 데이터를 추상화하여 다룰 수 있게 됨
+- **java.time 패키지:** 더 직관적이고 개선된 Date, Time API를 제공
+- **나즈혼 (Nashorn):** 자바스크립트의 새로운 엔진을 도입
 
 #### 16. static 이란?
 - 메모리에 단 한번만 올라가는 데이터
