@@ -31,3 +31,7 @@ Non relational SQL, Not Only SQL이라고도 불리며, 전통적인 관계형 D
 - 확장성, 가용성, 높은 성능
 
 #### 8. Transaction Isolation Level 이란?
+
+
++ MySQL : level 2
++ Oracle, SQL server : level 1
