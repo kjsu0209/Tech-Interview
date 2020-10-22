@@ -47,6 +47,12 @@ GC는 Garbage Collection으로, 힙 영역에서 메모리 부족 현상을 해�
 
 #### 5. STW란
 
+GC을 실행하기 위해 JVM이 애플리케이션 실행을 멈추는 것.
+
+stop-the-world가 발생하면 GC를 실행하는 쓰레드를 제외한 나머지 쓰레드는 모두 작업을 멈춘다. 
+
+GC 작업을 완료한 이후에야 중단했던 작업을 다시 시작한다.
+
 #### 6. Objects의 기본 메소드
 - equals : 동등성 검사
 - hashcode : 해쉬벨류 생성
@@ -134,7 +140,7 @@ System.out.println(c.equals(d));//true
 메소드 정의부 옆이나, 블록을 만들어서 구현할 수 있다.  
 클래스 기반 lock이므로 한 클래스에 syncronized 키워드가 붙은 메소드가 여러개라면,  
 그중 한개라도 다른 스레드가 사용하고 있을 경우 나머지 메소드(syncronized가 붙은)도 실행할 수 없다.   
-   
+
 2) lock object 구현   
 직접 lock 역할을 하는 object를 구현할 수 있다.    
 
