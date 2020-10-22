@@ -20,3 +20,4 @@
 - [네트워크](https://github.com/kjsu0209/Tech-Interview/blob/main/network/network.md)
 - [자바](https://github.com/kjsu0209/Tech-Interview/blob/main/java/java.md)
 - [데이터베이스](https://github.com/kjsu0209/Tech-Interview/blob/main/database/db.md)
+- [소프트웨어 공학](https://github.com/kjsu0209/Tech-Interview/blob/main/software-engineering/se.md)
