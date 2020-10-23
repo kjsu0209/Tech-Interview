@@ -92,7 +92,7 @@ Secure Socket Layer로 인터넷을 통해 전달되는 정보를 보호하기 �
 client가 server로 연결 요청(SYN)을 보내면 server가 백로그 큐에 저장하는데, 큐가 가득 차게 되면 더 이상 요청을 받을 수 없게 된다. 
 Denial of Service(Dos) attack 중 하나이다.    
    
-<해결방법>   
+**해결방법**   
 1) Cookie 사용: 서버가 SYN+ACK 메시지를 보낼 때 SYN Cookie도 함께 보낸다. 일정 시간 동안 해당 쿠키에 대한 응답 패킷이 오지 않는다면 방화벽에서 차단한다.   
 2) 타임아웃 시간을 짧게 잡아 백로그 큐를 계속해서 비워줄 수 있다.   
     
