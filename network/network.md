@@ -106,7 +106,7 @@ Denial of Service(Dos) attack 중 하나이다.
 매번 전송한 패킷에 대한 응답을 받아야 다음 패킷을 보내주는 방식.   
 - Sliding window 방식    
 수신 측에서 설정한 윈도우 크기만큼 송신 측에서 확인 응답 없이 세그먼트를 전송할 수 있게 하여 데이터 흐름을 동적으로 조절하여 제어하는 기법이다.  
-![image](https://t1.daumcdn.net/cfile/tistory/253F7E485715ED5F27)
+![image](https://t1.daumcdn.net/cfile/tistory/253F7E485715ED5F27)    
 
 
 #### 16. 서브네팅이란?
