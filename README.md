@@ -7,10 +7,10 @@
 - 질문뿐만 아니라 기술면접에 도움이 되는 내용이라면 코드, 칼럼 상관없이 올려도 좋습니다.
 
 ## Contributors
-- [jsooOO](https://github.com/kjsu0209)
--
--
--
+[@jsooOO](https://github.com/kjsu0209)
+@Dong-wook94
+@SongHayoung
+@yoo-jaein
 
 
 ## 바로가기
@@ -22,3 +22,4 @@
 - [데이터베이스](https://github.com/kjsu0209/Tech-Interview/blob/main/database/db.md)
 - [소프트웨어 공학](https://github.com/kjsu0209/Tech-Interview/blob/main/software-engineering/se.md)
 - [웹, Spring](https://github.com/kjsu0209/Tech-Interview/tree/main/web)
+- [손코딩](https://github.com/kjsu0209/Tech-Interview/tree/main/live-coding)
