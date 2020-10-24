@@ -91,12 +91,14 @@ Secure Socket Layer로 인터넷을 통해 전달되는 정보를 보호하기 �
 
 client가 server로 연결 요청(SYN)을 보내면 server가 백로그 큐에 저장하는데, 큐가 가득 차게 되면 더 이상 요청을 받을 수 없게 된다. 
 Denial of Service(Dos) attack 중 하나이다.    
-   
+
 **해결방법**   
 1) Cookie 사용: 서버가 SYN+ACK 메시지를 보낼 때 SYN Cookie도 함께 보낸다. 일정 시간 동안 해당 쿠키에 대한 응답 패킷이 오지 않는다면 방화벽에서 차단한다.   
 2) 타임아웃 시간을 짧게 잡아 백로그 큐를 계속해서 비워줄 수 있다.   
     
 #### 13. 로드 밸런싱
+
+여러서버에 트래픽 분산 시켜주는것. 
 
 #### 14. 싱글스레드 서버와 멀티스레드 서버 예시
 
@@ -108,8 +110,22 @@ Denial of Service(Dos) attack 중 하나이다.
 수신 측에서 설정한 윈도우 크기만큼 송신 측에서 확인 응답 없이 세그먼트를 전송할 수 있게 하여 데이터 흐름을 동적으로 조절하여 제어하는 기법이다.  
 ![image](https://t1.daumcdn.net/cfile/tistory/253F7E485715ED5F27)    
 
-
 #### 16. 서브네팅이란?
+
+ IP주소를 효율적으로 사용하여 낭비를 막기 위해서
+
+서브넷 마스크는 네트워크 아이디와 호스트 아이디를 구별하는 구분자 라고 생각하시면 편합니다.
+
+Broadcast Domain에 많은 호스트가 연결된 경우 호스트에 발생한 Broadcast Traffic이 모든 호스트에 전달되어 많은 Broadcast Traffic이 발생한다.
+
+하나의 Broadcast Domain 서는 보안이 취약하기 때문에 Firewall이나 ACL과 같은 정책을 구현하기 위해서는 Network Segment를 나누는 것이 효율적이다
+
+Subnet을 나누기 위한 작업:
+
+1. **Host or Subnet** 수를 파악 후 Subnetmask를 변경한다.
+2. 변경된 1bit 부분을 2진수로 순서대로 쓴다.
+3. 나온 수에 Host ID에 모두 0bit를 입력하면 Subnet에 Address가 나온다.
+4. Host ID 부분을 모두 1bit로 처리 하면 Subnet Broadcast Address이다.
 
 #### 17. ARP란?
 
