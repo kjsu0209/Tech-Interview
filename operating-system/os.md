@@ -117,4 +117,6 @@ Round Robin은 CPU Job Scheduling 기법으로, **선점형 스케줄링**방식
 
 #### 18. 동기와 비동기의 차이
 
-#### 19. crical section의 3요소.
+#### 19. critical section의 3요소.
+
+#### 20. RAID
