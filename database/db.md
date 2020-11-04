@@ -72,3 +72,9 @@ Non relational SQL, Not Only SQL이라고도 불리며, 전통적인 관계형 D
 
 + MySQL : level 2
 + Oracle, SQL server : level 1
+
+#### 9. inner join과 outer join 차이
+
+#### 10. DELETE, TRUNCATE, DROP 차이
+
+#### 11. 데이터 추상화 3단계
