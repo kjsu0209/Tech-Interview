@@ -120,3 +120,10 @@ Round Robin은 CPU Job Scheduling 기법으로, **선점형 스케줄링**방식
 #### 19. critical section의 3요소.
 
 #### 20. RAID
+
+#### 21. Thrashing과 해결법 설명
+
+#### 22. IPC와 구현 방법
+
+#### 23. 스케줄러 종류 3가지
+
