@@ -10,7 +10,8 @@
 [@jsooOO](https://github.com/kjsu0209)
 @Dong-wook94
 @SongHayoung
-@yoo-jaein
+@yoo-jaein 
+@goddl717
 
 
 ## 바로가기
