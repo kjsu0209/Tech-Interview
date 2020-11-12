@@ -158,3 +158,9 @@ Cross Origin Resource Sharing이라고 하는데, 클라이언트에서 다른 d
 #### 25. DHCP란? 
 
 #### 26. SSL 통신 과정 설명
+
+#### 27. http2.0 설명
+
+#### 28. 프록시 서버의 기능 
+
+#### 29. unicast, multicast, broadcast 설명
