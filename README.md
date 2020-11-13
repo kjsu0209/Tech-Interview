@@ -17,6 +17,7 @@
 ## 바로가기
 
 - [자료구조](https://github.com/kjsu0209/Tech-Interview/blob/main/data-structure/ds.md)
+- [알고리즘](https://github.com/kjsu0209/Tech-Interview/tree/main/algorithm/algo.md)
 - [운영체제](https://github.com/kjsu0209/Tech-Interview/blob/main/operating-system/os.md)
 - [네트워크](https://github.com/kjsu0209/Tech-Interview/blob/main/network/network.md)
 - [자바](https://github.com/kjsu0209/Tech-Interview/blob/main/java/java.md)
