@@ -180,4 +180,8 @@ Cross Origin Resource Sharing이라고 하는데, 클라이언트에서 다른 d
 
 #### 31. XSS란?
 
+#### 32. Big endian, Little endian 설명
+
+#### 33. sliding window 
+
 
