@@ -3,7 +3,7 @@
 ## CS 기초지식
 
 1. [자료구조](https://kjsu0209.github.io/Tech-Interview/data-structure/ds)
-1. [알고리즘](https://kjsu0209.github.io/Tech-Interview/)
+1. [알고리즘](https://kjsu0209.github.io/Tech-Interview/algorithm/algo)
 1. [운영체제](https://kjsu0209.github.io/Tech-Interview/operating-system/os)
 1. [네트워크](https://kjsu0209.github.io/Tech-Interview/network/network)
 1. [데이터베이스](https://kjsu0209.github.io/Tech-Interview/database/db)
