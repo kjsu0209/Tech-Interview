@@ -92,3 +92,9 @@ Non relational SQL, Not Only SQL이라고도 불리며, 전통적인 관계형 D
 #### 16. 무결성에 대해 설명해주세요
 
 #### 17. 역정규화를 하는 이유?
+
+#### 18. RDS의 특징 설명
+
+#### 19. having과 where 차이
+
+#### 20. group by의 역할
