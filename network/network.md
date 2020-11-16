@@ -184,4 +184,8 @@ Cross Origin Resource Sharing이라고 하는데, 클라이언트에서 다른 d
 
 #### 33. sliding window 
 
+#### 34. 이더넷 설명
+
+#### 35. ATM이란?
+
 
