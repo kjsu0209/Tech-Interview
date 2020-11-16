@@ -100,3 +100,5 @@ Non relational SQL, Not Only SQL이라고도 불리며, 전통적인 관계형 D
 #### 20. group by의 역할
 
 #### 21. commit/ rollback 설명
+
+#### 22. 부분함수적 종속/ 이행적 함수 종속성 
