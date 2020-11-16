@@ -98,3 +98,5 @@ Non relational SQL, Not Only SQL이라고도 불리며, 전통적인 관계형 D
 #### 19. having과 where 차이
 
 #### 20. group by의 역할
+
+#### 21. commit/ rollback 설명
