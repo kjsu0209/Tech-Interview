@@ -153,3 +153,7 @@ System.out.println(c.equals(d));//true
 
 #### 16. static 이란?
 - 메모리에 단 한번만 올라가는 데이터
+
+#### 17. JVM이란?
+
+#### 18. 직렬화 설명
