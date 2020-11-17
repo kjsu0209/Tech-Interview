@@ -160,4 +160,7 @@ System.out.println(c.equals(d));//true
 
 #### 19. primary type / non-primary type 차이 설명
 
+#### 20. JVM이란?
+
+#### 21. 직렬화 설명
 
