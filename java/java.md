@@ -154,6 +154,10 @@ System.out.println(c.equals(d));//true
 #### 16. static 이란?
 - 메모리에 단 한번만 올라가는 데이터
 
-#### 17. JVM이란?
+#### 17. 동적바인딩 설명
 
-#### 18. 직렬화 설명
+#### 18. 업캐스팅
+
+#### 19. primary type / non-primary type 차이 설명
+
+
