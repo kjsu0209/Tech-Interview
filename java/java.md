@@ -164,3 +164,9 @@ System.out.println(c.equals(d));//true
 
 #### 21. 직렬화 설명
 
+#### 22. Dynamic typing과 Static Typing의 차이
+
+#### 23. 자바의 final 키워드
+
+#### 24. 제네릭 사용하는 이유
+
